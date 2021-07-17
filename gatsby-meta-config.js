@@ -1,12 +1,12 @@
 module.exports = {
-  title: `Dev Dubby.io`,
+  title: `Dubby.log`,
   description: `Blog posted about ...`,
   author: `[Dubby]`,
   introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
   siteUrl: `https://devdubby.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/devdubby`, // Your GitHub account
+    github: `devdubby`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
