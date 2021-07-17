@@ -22,5 +22,5 @@ jobs:
         uses: maxheld83/ghpages@v0.2.1
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
-          deploy-branch: gh-pages
+          deploy-branch: master
           gatsby-args: --prefix-paths
