@@ -20,6 +20,7 @@ jobs:
 
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BUILD_DIR: 'public/'
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
