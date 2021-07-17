@@ -9,16 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-        repository: devdubby/devdubby.github.io.git
-        token: ${{ secrets.GITHUB_PAT }}
 
       - name: yarn install
         run: yarn install
 
       - name: gatsby build
         env:
-          GH_API_KEY: ${{ secrets.GITHUB }}
+          GH_API_KEY: ${{ secrets.ACCESS_TOKEN }}
         run: yarn build
 
       - name: deploy
