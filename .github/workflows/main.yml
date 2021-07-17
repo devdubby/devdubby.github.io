@@ -8,7 +8,7 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
 
       - name: yarn install
         run: yarn install
@@ -21,6 +21,5 @@ jobs:
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BUILD_DIR: 'public/'
