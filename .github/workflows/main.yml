@@ -18,9 +18,9 @@ jobs:
           GH_API_KEY: ${{ secrets.ACCESS_TOKEN }}
         run: yarn build
 
-      - name: gatsby deploy
+      - name: deploy
         uses: maxheld83/ghpages@v0.2.1
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          deploy-branch: gh-pages
-          gatsby-args: --prefix-paths
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GITHUB_API_KEY }}
+          BUILD_DIR: 'public/'
