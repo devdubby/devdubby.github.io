@@ -19,8 +19,8 @@ jobs:
         run: yarn build
 
       - name: deploy
-        uses: maxheld83/ghpages@v0.2.1
-        with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          entrypoint: gh-pages
-          args: --prefix-paths
+      - uses: peaceiris/actions-gh-pages@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
