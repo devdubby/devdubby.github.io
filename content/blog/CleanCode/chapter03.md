@@ -1,5 +1,5 @@
 ---
-title: Chapter03. Function
+title: Clean Code Study (Ch.3 Function)
 date: 2021-07-19 22:07:43
 category: CleanCode
 thumbnail: { './images/clean-code-thumbnail.jpeg' }
