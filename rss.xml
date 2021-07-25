@@ -1,4 +1,207 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dubby.log]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://devdubby.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 20 Jul 2021 13:47:28 GMT</lastBuildDate><item><title><![CDATA[Clean Code Study (Ch.3 Function)]]></title><description><![CDATA[회사에서 ‘클린코드’ 책 스터디를 진행하고 있어 공부한 내용을 정리해보려고 한다. 03.함수 어떤 프로그램이든 가장 기본적인 단위가 함수 이번 장은 함수를 잘 만드는 방법에 대해 소개 작게 만들어라 8…]]></description><link>https://devdubby.github.io/CleanCode/chapter03/</link><guid isPermaLink="false">https://devdubby.github.io/CleanCode/chapter03/</guid><pubDate>Mon, 19 Jul 2021 22:07:43 GMT</pubDate><content:encoded>&lt;p&gt;회사에서 ‘클린코드’ 책 스터디를 진행하고 있어 공부한 내용을 정리해보려고 한다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dubby.log]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://devdubby.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 25 Jul 2021 15:25:32 GMT</lastBuildDate><item><title><![CDATA[프로그래머스 FE 생존키트 스터디 1주차]]></title><description><![CDATA[이번에 프로그래머스를 통해 FE…]]></description><link>https://devdubby.github.io/TIL/프로그래머스-fe-생존키트-스터디-1주차/</link><guid isPermaLink="false">https://devdubby.github.io/TIL/프로그래머스-fe-생존키트-스터디-1주차/</guid><pubDate>Sat, 24 Jul 2021 10:07:52 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACdElEQVQoz01SW2sTURBetGlz32xybnv2XPaSuE3Sbk2bttoLbezFBNuGUgtqEUHrgy+CCFbwQhVEfBG06EPRd1FR6oP/wP/jP9DZDYLwPeyemW9mvm/GyGORKdvDJklbdg45IyU6YtLTJgm59rnbFF7Vced0sOhVLSopU1kkCjgBkQYQeFAPJ6Z1GCFZrUXtMGp7zcl2dXTMcVsqIFSt+rWG8EhCzhEJ/XIDcrbCr964ffDk2faV653u5pdvJ0fvj4+OP273tphFme0yqsaEJ2xdpjKDRJ5IbGvCdA5LAwpA2+bU+fmVbkUEF3r9Xv/y/p27XrOVKjFuu4rpChEWkTXhjUnfsTWmCgAfBgiWZ8a7/d2FlV6vvwuFOt2tmcWV9nwHQhWmLKpspmZ1cFb5kfQJU0VoTqVJhJEqkrWN7a/ff7x++w5w78Gjwxev4OPp85fDJoW5MlhMqACcQ1SCeZ/nZk4WZuG3BGTQjGTQubgx11lfWr9UcXyvPnFueW1heQ1xD4Rp7jpMgdoyTO64B9H4wyiqJY8GWJdHzukiTplkqICyyIFph0zCEVfczRPlcg1jM6ZMIoGfRrHPg8eYnEFO1mKZCi9QBQEgENvdCev9WgidYdvAhFTOFIq3JR1b0aSccarMDydbv3Y2f/ZWa1ynsSwmm/wwO/Wm3TLKPDE2ZsLCXVtrW9O4kObgtmGxT0vzfx7f/31rb9zRw1gUQQgWJSKzWED5+DCwoElzmNbjMY1SBWlGLhbgRrZscA2EXMIcAHZzLawDYEMQKiWZYIT5Ly0+kjQWKQAS/zPheqeVvzdav1lv7jcacKGM6ewgSmQhwV+LDnXFWlooHAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;thumbnail&quot;
+        title=&quot;thumbnail&quot;
+        src=&quot;/static/1f83ab72a1328940d066a3560dd271f5/c5bb3/thumbnail-fekit.png&quot;
+        srcset=&quot;/static/1f83ab72a1328940d066a3560dd271f5/5a46d/thumbnail-fekit.png 300w,
+/static/1f83ab72a1328940d066a3560dd271f5/0a47e/thumbnail-fekit.png 600w,
+/static/1f83ab72a1328940d066a3560dd271f5/c5bb3/thumbnail-fekit.png 680w&quot;
+        sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이번에 프로그래머스를 통해 FE 취업 생존키트라는 스터디에 참여하게 되었다.&lt;br&gt;
+크게 이직 준비를 하는건 아니지만, 요즘같이 다양한 프레임워크와 라이브러리 등 개발을 편리하게 할 수 있게 해주는
+너무나 좋은 도구들이 많기 때문에 본질/기본을 잊을 수 있겠다는 생각을 갖고 있었다.&lt;br&gt;
+추후에 내 커리어를 위해서든 역량 향상을 위해서든 기본은 잊지 말아야 개발할때 도움이 된다고 생각하기 때문에
+마침 프레임워크나 라이브러리를 쓰지 않고 Javascript 본질의 충실할 수 있는 스터디 기회가 생겨 참여하게 되었다.&lt;br&gt;
+앞으로 매주 수업 세션 후 느낀점/배운점을 기록해보려고 한다.  &lt;/p&gt;
+&lt;h2 id=&quot;선언형-프로그래밍이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A0%EC%96%B8%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;선언형 프로그래밍이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;선언형 프로그래밍이란?&lt;/h2&gt;
+&lt;p&gt;규칙에 기반하여 input과 output에 집중해서 프로그래밍 하는 방법이다.&lt;/p&gt;
+&lt;p&gt;명령형&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;input이 주어졌을 때에 정해진 output이 존재하는 것이 아니라 특정 task를 실행한다.&lt;br&gt;
+ex) &lt;code class=&quot;language-text&quot;&gt;export const ExecuteSomeTask = () =&gt; console.log(&apos;hello world&apos;);&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;항상 똑같은 output을 보장하지 않는다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;선언형 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;input이 주어지면 어떤 output이 나올지 예상할 수 있다.&lt;br&gt;
+ex) &lt;code class=&quot;language-text&quot;&gt;export const toLowerCase = (input) =&gt; input.toLowerCase();&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;똑같은 input에 대해서는 항상 똑같은 output을 보장한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;선언형-프로그래밍-in-ui-development&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A0%EC%96%B8%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-in-ui-development&quot; aria-label=&quot;선언형 프로그래밍 in ui development permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;선언형 프로그래밍 in UI Development&lt;/h2&gt;
+&lt;p&gt;UI 개발도 선언형 프로그래밍 방식으로 작성하면 훨씬 더 수월하게 작성할 수 있다고 한다.&lt;br&gt;
+선언형으로 작성하게 되면 함수안은 어떻게 구현되어 있는지, 이 함수는 무슨일을 하는지 등을 생각하지 않아도 되는데&lt;br&gt;
+명령형 프로그래밍 방식으로 작성하게 되면 함수를 사용하는데 생각을 더 하게 되고 또 코드 규모가 커지면 더 파악하기가 어려워지는 일이 발생한다.&lt;/p&gt;
+&lt;h2 id=&quot;선언형-vs-명령형-예제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A0%EC%96%B8%ED%98%95-vs-%EB%AA%85%EB%A0%B9%ED%98%95-%EC%98%88%EC%A0%9C&quot; aria-label=&quot;선언형 vs 명령형 예제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;선언형 vs 명령형 예제&lt;/h2&gt;
+&lt;h3 id=&quot;명령형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AA%85%EB%A0%B9%ED%98%95&quot; aria-label=&quot;명령형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;명령형&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; container &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;app&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; countdownContainer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;div&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   countdownContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;countdown-container&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   container&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;countdownContainer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; titleElement &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;div&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   titleElement&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;classList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;title&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   titleElement&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;남은 시간&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   countdownContainer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;titleElement&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+   
+   &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+   &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+   &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 코드의 특징은 정해진 규칙 안에서 UI를 그리고 컴포넌트화 시키는 코드를 작성하기보다는 수행이 필요한 작업들을 순차적으로 진행한다.  &lt;/p&gt;
+&lt;h3 id=&quot;선언형&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%A0%EC%96%B8%ED%98%95&quot; aria-label=&quot;선언형 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;선언형&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Component라는 Class를 정의하여 UI 개발의 규칙을 만들고&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 하나하나 직접 과정들을 명령하는 것이 아니고 Component를 선언하고&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// render, state만을 컨트롤하고 UI를 그리는 것은 Component의 규칙에 따른다.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; $target&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;div&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; initialState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;props &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$target &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; $target&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;$element &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; props &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; initialState&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;token function&quot;&gt;renderComponent&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;partialState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;partialState &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;token function&quot;&gt;updateDOM&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 코드의 특징은 Component라는 클래스를 만들어서 그 안에서 정해진 규칙(contructor, renderComponent, setState 등)을 만들고 그 규칙에 따라 컴포넌트를 그리는 개발을 한다.&lt;/p&gt;
+&lt;h2 id=&quot;반응형-웹-구현하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0&quot; aria-label=&quot;반응형 웹 구현하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;반응형 웹 구현하기&lt;/h2&gt;
+&lt;h3 id=&quot;모바일-퍼스트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AA%A8%EB%B0%94%EC%9D%BC-%ED%8D%BC%EC%8A%A4%ED%8A%B8&quot; aria-label=&quot;모바일 퍼스트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;모바일 퍼스트&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;모바일이 더 디바이스의 리소스가 적기 때문에 모바일에서 최소한의 source를 해석하도록 해줄 수록 미약할 수 있지만 퍼포먼스에 도움이 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;media-query-사용하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#media-query-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&quot; aria-label=&quot;media query 사용하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;media query 사용하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;window width에 따라서 responsive한 css 추가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;container-query-맛보기-experimental&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#container-query-%EB%A7%9B%EB%B3%B4%EA%B8%B0-experimental&quot; aria-label=&quot;container query 맛보기 experimental permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;container query 맛보기 (experimental)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;container width에 따라서 responsive한 css 추가. 아직 chrome 최신버전에서만 지원하지만 미리 살펴볼 가치는 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;미디어-쿼리-예제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BF%BC%EB%A6%AC-%EC%98%88%EC%A0%9C&quot; aria-label=&quot;미디어 쿼리 예제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;미디어 쿼리 예제&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;min-width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 350px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;.input-group&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flex&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;align-items&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;gap&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1.5rem&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같이 media 쿼리를 활용하여 작성&lt;/p&gt;
+&lt;h3 id=&quot;container-쿼리-예제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#container-%EC%BF%BC%EB%A6%AC-%EC%98%88%EC%A0%9C&quot; aria-label=&quot;container 쿼리 예제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Container 쿼리 예제&lt;/h3&gt;
+&lt;p&gt;먼저 크롬에서 chrome://flags 에 접속하여 검색창에 container라고 검색 후 Enable CSS Container Queries 항목을 Enabled 해줘야 하는 세팅이 필요하다.  &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA+UlEQVQY022R3VKDMBSEeZEWLD9JSAg04VeKM63eOF7YZ9AH8dHXc4J1cOrFN0sIZ2fPEk2PC5jl6YyR1PUjun6CrR1KbaFNvaJXreyRcEFt0wb4uSbthxlRIUrcEFIHpDLwvoe1DQ5phjQrAlkuoMoqwN8Es9r/zueFQhQnKbbs40O4aCllcxxhbAtFSbdGpmpCWlZ+t52PkocMW+KEDIWG63rMi4UfFmjrCaqATLgGrqOq17NU1Z/5O0NOKJXF5fkFr28zxukER+v7boRrh6BseHn/xPXjC9P5it1uT7P5/4Ycm7syVHSp1x9zW/cOuhPSIPlZl+e/AUWvtRp6g3wHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;container-query-setting&quot;
+        title=&quot;container-query-setting&quot;
+        src=&quot;/static/9e92bee1852724c0100a0bc62752ff7b/c1b63/container-query-setting.png&quot;
+        srcset=&quot;/static/9e92bee1852724c0100a0bc62752ff7b/5a46d/container-query-setting.png 300w,
+/static/9e92bee1852724c0100a0bc62752ff7b/0a47e/container-query-setting.png 600w,
+/static/9e92bee1852724c0100a0bc62752ff7b/c1b63/container-query-setting.png 1200w,
+/static/9e92bee1852724c0100a0bc62752ff7b/d61c2/container-query-setting.png 1800w,
+/static/9e92bee1852724c0100a0bc62752ff7b/97a96/container-query-setting.png 2400w,
+/static/9e92bee1852724c0100a0bc62752ff7b/89587/container-query-setting.png 2624w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;min-width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 700px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token selector&quot;&gt;.card&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; grid&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 2fr 1fr&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;parent 기준의 size에 따라 style을 지정할 수 있다.
+사용처에 따라서 직접 구별할 수 있는 className 줘야하거나 javascript로 parent width를 체크하지 않는 이상
+할 수 없던 일들을 @container query를 사용하면 해결할 수 있다.
+그러나 container 쿼리는 현재 지원하는 브라우저가 거의 없어 아직 범용적으로 사용하기에는 이르다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABPElEQVQY021R206DQBTkH+y9hdJd2AUKy1IuaiLQGqy3xPgFPphQEzVG//9hPJD6oPFhcubMuWVnjUJLdMi1QBJyRJ4N35lDrCZwliO49rjHf7yLes3g8RmK2KEdDMZ+W6CpMlzVGW4uz9BQrM4VYt/+teQvfmqSTen4GMwcgpNmNKcLRDQcBzYURe2bSIMxuDUCswb9IDMHPbg1hHvMu9jlq8UJ+LHGqd+IPBOhtBBJE4GwjpyOeMv+OYEwkWkXacR6S3QsoYnnmU+6h1RJqIh05UKHLoyWhJaE98RFmyscaPiFFr0qB20i0ZCfh1zgK5N4ilzsQoHrtYW7jcBzqtCmMW4TgfuNxN4TMGo+wYOY45M+5Y2aPuj6o1ig5FPsnBlKQs0m2JLxNWkV+VUSL8m72iHQfMcvqKci/g3tdLMMzKQ8BwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;browser-support&quot;
+        title=&quot;browser-support&quot;
+        src=&quot;/static/3684098126bc2a7950286f9f3dfc4ee2/c1b63/browser-support.png&quot;
+        srcset=&quot;/static/3684098126bc2a7950286f9f3dfc4ee2/5a46d/browser-support.png 300w,
+/static/3684098126bc2a7950286f9f3dfc4ee2/0a47e/browser-support.png 600w,
+/static/3684098126bc2a7950286f9f3dfc4ee2/c1b63/browser-support.png 1200w,
+/static/3684098126bc2a7950286f9f3dfc4ee2/d61c2/browser-support.png 1800w,
+/static/3684098126bc2a7950286f9f3dfc4ee2/97a96/browser-support.png 2400w,
+/static/3684098126bc2a7950286f9f3dfc4ee2/b0f48/browser-support.png 2690w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;다크모드-대응하기---다크모드를-대응하는-여러가지-방법들&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A4%ED%81%AC%EB%AA%A8%EB%93%9C-%EB%8C%80%EC%9D%91%ED%95%98%EA%B8%B0---%EB%8B%A4%ED%81%AC%EB%AA%A8%EB%93%9C%EB%A5%BC-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EC%97%AC%EB%9F%AC%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95%EB%93%A4&quot; aria-label=&quot;다크모드 대응하기   다크모드를 대응하는 여러가지 방법들 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;다크모드 대응하기 - 다크모드를 대응하는 여러가지 방법들&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;DOM property 활용하기(ex. body dataset 태그)&lt;/li&gt;
+&lt;li&gt;두가지 light theme, dark theme stylesheet 활용하기&lt;/li&gt;
+&lt;li&gt;CSS Variables 활용하기&lt;br&gt;
+css variables를 활용하는 것이 따로 theme별 stylesheet를 유지하는 것보다 load해야할 코드가 적게 만들 수 있다.&lt;/li&gt;
+&lt;li&gt;더 좋은 UX를 이루기 위한 방법&lt;br&gt;
+시스템 preference를 기반으로 초기값 설정&lt;br&gt;
+localStorage를 활용한 선호 초기값 저장&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Clean Code Study (Ch.3 Function)]]></title><description><![CDATA[회사에서 ‘클린코드’ 책 스터디를 진행하고 있어 공부한 내용을 정리해보려고 한다. 03.함수 어떤 프로그램이든 가장 기본적인 단위가 함수 이번 장은 함수를 잘 만드는 방법에 대해 소개 작게 만들어라 8…]]></description><link>https://devdubby.github.io/CleanCode/chapter03/</link><guid isPermaLink="false">https://devdubby.github.io/CleanCode/chapter03/</guid><pubDate>Mon, 19 Jul 2021 22:07:43 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 458px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 131.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHuqRK1TN5Bo//EABYQAQEBAAAAAAAAAAAAAAAAAAEgEP/aAAgBAQABBQLCGv/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CT//EABsQAAICAwEAAAAAAAAAAAAAAAABETEQIHGB/9oACAEBAAE/IWySltj0ei6MjH//2gAMAwEAAgADAAAAEB8FQv/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABYRAQEBAAAAAAAAAAAAAAAAABABEf/aAAgBAgEBPxDCn//EAB4QAQADAQABBQAAAAAAAAAAAAEAESExURBBYYGh/9oACAEBAAE/EEF1N8y27+worsPVlqyvuF1vfTorfiLXHHnugE0uU8HYAcJ//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;thumbnail&quot;
+        title=&quot;thumbnail&quot;
+        src=&quot;/static/9c5dc0ab2f76a570c70fc975bf6d7ea8/f7c3c/clean-code-thumbnail.jpg&quot;
+        srcset=&quot;/static/9c5dc0ab2f76a570c70fc975bf6d7ea8/f93b5/clean-code-thumbnail.jpg 300w,
+/static/9c5dc0ab2f76a570c70fc975bf6d7ea8/f7c3c/clean-code-thumbnail.jpg 458w&quot;
+        sizes=&quot;(max-width: 458px) 100vw, 458px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;회사에서 ‘클린코드’ 책 스터디를 진행하고 있어 공부한 내용을 정리해보려고 한다.&lt;/p&gt;
 &lt;h2 id=&quot;03함수&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#03%ED%95%A8%EC%88%98&quot; aria-label=&quot;03함수 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;03.함수&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;어떤 프로그램이든 가장 기본적인 단위가 함수&lt;/li&gt;
