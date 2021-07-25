@@ -6,6 +6,8 @@ thumbnail: { './images/clean-code-thumbnail.jpeg' }
 draft: false
 ---
 
+![thumbnail](./images/clean-code-thumbnail.jpeg)
+
 회사에서 '클린코드' 책 스터디를 진행하고 있어 공부한 내용을 정리해보려고 한다.
 
 ## 03.함수
