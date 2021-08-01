@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dubby.log]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://devdubby.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 25 Jul 2021 15:25:32 GMT</lastBuildDate><item><title><![CDATA[프로그래머스 FE 생존키트 스터디 1주차]]></title><description><![CDATA[이번에 프로그래머스를 통해 FE…]]></description><link>https://devdubby.github.io/TIL/프로그래머스-fe-생존키트-스터디-1주차/</link><guid isPermaLink="false">https://devdubby.github.io/TIL/프로그래머스-fe-생존키트-스터디-1주차/</guid><pubDate>Sat, 24 Jul 2021 10:07:52 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dubby.log]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://devdubby.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Aug 2021 16:30:40 GMT</lastBuildDate><item><title><![CDATA[프로그래머스fe-생존키트-스터디-2주차]]></title><description><![CDATA[지난 과제 리뷰 keypress나 keydown, keyup 이벤트를 만들어 enter 키에 대한 처리를 하지 않고
+form에 대한 기본적인 형식이 다 갖춰져 있지 않더라도
+submit 이벤트는 기본적으로 enter…]]></description><link>https://devdubby.github.io/프로그래머스/프로그래머스fe-생존키트-스터디-2주차/</link><guid isPermaLink="false">https://devdubby.github.io/프로그래머스/프로그래머스fe-생존키트-스터디-2주차/</guid><pubDate>Sat, 31 Jul 2021 10:07:34 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACdElEQVQoz01SW2sTURBetGlz32xybnv2XPaSuE3Sbk2bttoLbezFBNuGUgtqEUHrgy+CCFbwQhVEfBG06EPRd1FR6oP/wP/jP9DZDYLwPeyemW9mvm/GyGORKdvDJklbdg45IyU6YtLTJgm59rnbFF7Vced0sOhVLSopU1kkCjgBkQYQeFAPJ6Z1GCFZrUXtMGp7zcl2dXTMcVsqIFSt+rWG8EhCzhEJ/XIDcrbCr964ffDk2faV653u5pdvJ0fvj4+OP273tphFme0yqsaEJ2xdpjKDRJ5IbGvCdA5LAwpA2+bU+fmVbkUEF3r9Xv/y/p27XrOVKjFuu4rpChEWkTXhjUnfsTWmCgAfBgiWZ8a7/d2FlV6vvwuFOt2tmcWV9nwHQhWmLKpspmZ1cFb5kfQJU0VoTqVJhJEqkrWN7a/ff7x++w5w78Gjwxev4OPp85fDJoW5MlhMqACcQ1SCeZ/nZk4WZuG3BGTQjGTQubgx11lfWr9UcXyvPnFueW1heQ1xD4Rp7jpMgdoyTO64B9H4wyiqJY8GWJdHzukiTplkqICyyIFph0zCEVfczRPlcg1jM6ZMIoGfRrHPg8eYnEFO1mKZCi9QBQEgENvdCev9WgidYdvAhFTOFIq3JR1b0aSccarMDydbv3Y2f/ZWa1ynsSwmm/wwO/Wm3TLKPDE2ZsLCXVtrW9O4kObgtmGxT0vzfx7f/31rb9zRw1gUQQgWJSKzWED5+DCwoElzmNbjMY1SBWlGLhbgRrZscA2EXMIcAHZzLawDYEMQKiWZYIT5Ly0+kjQWKQAS/zPheqeVvzdav1lv7jcacKGM6ewgSmQhwV+LDnXFWlooHAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;thumbnail&quot;
+        title=&quot;thumbnail&quot;
+        src=&quot;/static/1f83ab72a1328940d066a3560dd271f5/c5bb3/thumbnail-fekit.png&quot;
+        srcset=&quot;/static/1f83ab72a1328940d066a3560dd271f5/5a46d/thumbnail-fekit.png 300w,
+/static/1f83ab72a1328940d066a3560dd271f5/0a47e/thumbnail-fekit.png 600w,
+/static/1f83ab72a1328940d066a3560dd271f5/c5bb3/thumbnail-fekit.png 680w&quot;
+        sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;지난-과제-리뷰&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%80%EB%82%9C-%EA%B3%BC%EC%A0%9C-%EB%A6%AC%EB%B7%B0&quot; aria-label=&quot;지난 과제 리뷰 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;지난 과제 리뷰&lt;/h2&gt;
+&lt;p&gt;keypress나 keydown, keyup 이벤트를 만들어 enter 키에 대한 처리를 하지 않고
+form에 대한 기본적인 형식이 다 갖춰져 있지 않더라도
+submit 이벤트는 기본적으로 enter와 바인딩이 되기 때문에 onsubmit 이벤트를 쓰는게 더 좋다.&lt;br&gt;
+또한, 체크박스 만들때 input 과 label 을 id-for 로 서로 연결하여 만들면 더 코드를 간단히 작성할 수 있다.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;input type&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;checkbox&quot;&lt;/span&gt; id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;label-input-1&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;label &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;label-input-1&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;label&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;label&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;sementic-html---의미론적으로-html을-작성하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#sementic-html---%EC%9D%98%EB%AF%B8%EB%A1%A0%EC%A0%81%EC%9C%BC%EB%A1%9C-html%EC%9D%84-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0&quot; aria-label=&quot;sementic html   의미론적으로 html을 작성하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sementic HTML - 의미론적으로 HTML을 작성하기!&lt;/h2&gt;
+&lt;p&gt;Sementic HTML을 사용해야 하는 이유&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;검색엔진이 웹사이트를 이해할 때에 참고할 수 있다.&lt;/li&gt;
+&lt;li&gt;코드 작성자 입장에서 구조를 생각할 때에 앱의 구조를 설계할 때에 도움이 된다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;예를 들어, div 태그를 사용하여 id로 container, nav, footer 등을 명시해 넣는것보다 만들어져 있는 sementic tag를 활용하는게 더 좋다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;header&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  Header
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;nav&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;nav&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;header&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;section&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;img&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;section&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;브라우저-이벤트의-흐름&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%9D%98-%ED%9D%90%EB%A6%84&quot; aria-label=&quot;브라우저 이벤트의 흐름 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브라우저 이벤트의 흐름&lt;/h2&gt;
+&lt;p&gt;브라우저에서 이벤트는 특정 액션이 일어났다는 의미&lt;/p&gt;
+&lt;p&gt;이벤트의 종류  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;마우스 이벤트, 폼 이벤트, 키보드 이벤트 등&lt;br&gt;
+이벤트 등록하는 법  &lt;/li&gt;
+&lt;li&gt;HTML 속성, DOM 프로퍼티, addEventListner / removeEventListner&lt;br&gt;
+이벤트 객체 살펴보기&lt;/li&gt;
+&lt;li&gt;event.type, event.target, event.currentTarget&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;이벤트-버블링과-캡쳐링&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81%EA%B3%BC-%EC%BA%A1%EC%B3%90%EB%A7%81&quot; aria-label=&quot;이벤트 버블링과 캡쳐링 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이벤트 버블링과 캡쳐링&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;캡처링&lt;br&gt;
+document에서 event.target까지 도달하는 이벤트의 흐름 &lt;/li&gt;
+&lt;li&gt;타깃 도달
+이벤트가 실제 타깃 요소에 전달되는 단계&lt;/li&gt;
+&lt;li&gt;버블링
+이벤트가 발생한 DOM 요소에서 최상단의 document까지 버블링하는 흐름&lt;br&gt;
+브라우저 이벤트는 특별한 설정이 있지 않는 한 기본적으로 bubbling 으로 실행된다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/8673bcde2b25694c15c0a45edb8b27b0/bubbling-capturing.svg&quot; alt=&quot;thumbnail&quot;&gt;
+출처 : &lt;a href=&quot;https://ko.javascript.info/bubbling-and-capturing&quot;&gt;버블링과 캡처링&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;이벤트-위임&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%9C%84%EC%9E%84&quot; aria-label=&quot;이벤트 위임 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이벤트 위임&lt;/h2&gt;
+&lt;p&gt;내부에 하나의 돔에 이벤트를 연결할 수 있는 방법을 이벤트 위임&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;nav onclick&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;menuClick(event)&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;FORM&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;MENU&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;MENU&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;MENU&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;a&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;nav&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;infinite-scroll-pagination&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#infinite-scroll-pagination&quot; aria-label=&quot;infinite scroll pagination permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Infinite Scroll Pagination&lt;/h2&gt;
+&lt;p&gt;이제는 page 클릭으로 pagination 을 하기보다는 infinite scroll pagination 으로 하는 방법이 추세&lt;br&gt;
+intersectionObserver API를 사용해서 Infinite Scroll Pagination을 구현할 수 있다.  &lt;/p&gt;
+&lt;p&gt;intersectionObserver는 특정 DOM이 viewport안에 노출이 되기 시작하는 시점에 callback을 실행히셔주는 Web API.&lt;/p&gt;
+&lt;h2 id=&quot;브라우저-fetch-기초&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-fetch-%EA%B8%B0%EC%B4%88&quot; aria-label=&quot;브라우저 fetch 기초 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브라우저 fetch 기초&lt;/h2&gt;
+&lt;p&gt;Web API fetch를 사용하는 방법을 알아보기 전에 REST API에서 주로 사용되는 HTTP Method들을 알아볼 필요가 있다.  &lt;/p&gt;
+&lt;p&gt;주요 HTTP Method 종류 (For REST API, CRUD)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;POST: 데이터를 생성 (Create)&lt;/li&gt;
+&lt;li&gt;PUT: 데이터를 업데이트 (Update)&lt;/li&gt;
+&lt;li&gt;PATCH: 데이터의 일부를 업데이트 (Update)&lt;/li&gt;
+&lt;li&gt;DELETE: 데이터를 삭제 (Delete)&lt;/li&gt;
+&lt;li&gt;GET: 데이터를 가져오기 (Read)&lt;/li&gt;
+&lt;li&gt;OPTIONS: 서버에서 지원하는 method를 확인 (동일 도메인이 아닌 다른 도메인으로 요청을 보낼 경우 OPTIONS을 먼저 보내서 사용한 가능한 method를 미리 browser가 확인한다.)&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[프로그래머스 FE 생존키트 스터디 1주차]]></title><description><![CDATA[이번에 프로그래머스를 통해 FE…]]></description><link>https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-1주차/</link><guid isPermaLink="false">https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-1주차/</guid><pubDate>Sat, 24 Jul 2021 10:07:52 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &quot;
     &gt;
