@@ -1,7 +1,7 @@
 ---
-title: chapter07
+title: Clean Code Study (Ch.7 Function)
 date: 2021-08-05 23:08:40
-category: cleancode
+category: CleanCode
 thumbnail: { './images/clean-code-thumbnail.jpeg' }
 draft: false
 ---
