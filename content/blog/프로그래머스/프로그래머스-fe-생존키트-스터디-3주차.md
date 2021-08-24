@@ -1,5 +1,5 @@
 ---
-title: 프로그래머스 FE 생존키트 스터디 3주차.md
+title: 프로그래머스 FE 생존키트 스터디 3주차
 date: 2021-08-07 10:08:41
 category: 프로그래머스
 thumbnail: { './images/thumbnail-fekit.png' }
