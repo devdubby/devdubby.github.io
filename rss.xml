@@ -1,4 +1,342 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dubby.log]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://devdubby.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Sep 2021 11:54:38 GMT</lastBuildDate><item><title><![CDATA[React의 Virtual DOM과 babel 이해하기]]></title><description><![CDATA[React에서 babel의 동작원리 & React와 Virtual DOM 이해하기 먼저 babel이란? Babel 은 자바스크립트 컴파일러이다. 최신 버전의 자바스크립트 문법은 브라우저가 이해할 수 없기 때문에 babel…]]></description><link>https://devdubby.github.io/development/react의-virtual-dom과-babel-이해하기/</link><guid isPermaLink="false">https://devdubby.github.io/development/react의-virtual-dom과-babel-이해하기/</guid><pubDate>Fri, 03 Sep 2021 20:10:25 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dubby.log]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://devdubby.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Sep 2021 13:40:49 GMT</lastBuildDate><item><title><![CDATA[오픈소스 컨트리뷰톤 기본교육]]></title><description><![CDATA[오픈소스 컨트리뷰톤에 선발되어 dooboo-ui 라는 프로젝트에 참여하게 되었다. 본격적인 오픈소스 컨트리뷰션을 시작하기 전에 사전 기본교육을 Git/Github 교육을 수강하게 되었다. 개발자가 오픈소스를 읽는 방법 Fork & Clone fork…]]></description><link>https://devdubby.github.io/컨트리뷰톤/오픈소스-컨트리뷰톤-기본교육/</link><guid isPermaLink="false">https://devdubby.github.io/컨트리뷰톤/오픈소스-컨트리뷰톤-기본교육/</guid><pubDate>Sun, 19 Sep 2021 13:07:04 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 768px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAADB0lEQVQ4y4WTzW8bZRCH90JwvInlSHg/vd7s2k5qu3HSuG5SA0KiUgukNLkQqhgRIURDkqZGxElJQ5wmaQ9tJBqqUnFuBPSDICHRVO0FJC6IP6A9VUJ8CBBIHMqFcniYXUOLxIHDo9/MO9rZmXnnVdTWVqItLQ9QIxGiAS2PNH2Jq9GoIKqq/4vipDO4vX2kikVSfbtI7ciFuLvLuP0lkp6HE+D7JG0bx3FIJpP/wZZYgGLtfxa7voB9bJbO0+voQ4dwarO4p8/iLDRIvvIa5ugY2v5niLepxDs66BA0TQtJJBIhhmFgmibKU0NDTDaWebk+x+HaG7x05AjV+eMcmpjghclJhiZeZ3xhkVfnjlMdG2Nqaorx8XEGBgYYHBykUqmE6kkXQVLluQMHWJyf5+TiMscmZ6gdrbEsCeq1OtXRKqMjI7w1O0v18ItMT0+xuroqOs2+fU8zIrHh4WHKZRmP6zYrDPr2Myl2FhOUdifo6tYFi4G9NnsrLk4qQcp1ODozw4kTS6ysrtBYWuLtxgrLJ1dYX18Pq4zFYuEsFcsycTsN+djgiSd1ynt0cnlDVKPUb+B7BpmMz8bGBpuXNrl69WM+uvIhlzY/4Nrla3y69QmNRoN0Ot1s2bIsAjTNkuFa6Lolgaatabagk81muX37Dn/c/4Xf7/3Kd/d+5qfvv+XHu99w/7cfgD85ePB54vH4w4RBpf9W224S/NWXldna2uLrr77k8y9usX3rJje2t7m+fZ0bNz9jbW2NQqEgxego5t/XbZpWqJYZJDEfrME/CU+dWuP8+fc5c/YcF8+9y8Uz73DhvQvMvVmnXW1Dl06CbxVPFtu23bAyvzOFYQYJUuHcPM9F0yWxXFxC13hM9s3M2BieiW1pGJr4nRbJvIflO1ieXEqxJ09Pbge9eZ9d+UA9+ktFKoNlHi8X6cqI31ekr5Cmp9DFzt5ueopZ9giFLl+2I0uu1E0+lxHSKO2tEdrlnT4kSpucqZFHQ42pUdrlPcfkPETswG8LbLXpxyJBvDW0/wJFyLeCivM2sQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;thumbnail&quot;
+        title=&quot;thumbnail&quot;
+        src=&quot;/static/aa15518259b37fef8b2f6d2b0c5bfd8c/e5715/contributon-thumbnail.png&quot;
+        srcset=&quot;/static/aa15518259b37fef8b2f6d2b0c5bfd8c/5a46d/contributon-thumbnail.png 300w,
+/static/aa15518259b37fef8b2f6d2b0c5bfd8c/0a47e/contributon-thumbnail.png 600w,
+/static/aa15518259b37fef8b2f6d2b0c5bfd8c/e5715/contributon-thumbnail.png 768w&quot;
+        sizes=&quot;(max-width: 768px) 100vw, 768px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA50lEQVQY04WR3W6DMAyF8ybTSEsSpqntpEIDBCiUn1B2077/s5zGmYJaadMuPsU5jpxjm412QlkZtJcO+68DYikglMRWxODbzb9EG/5yZ5nWOKYpClMi0yfoIvfx7rDHO4/+hAr9FOMvRVnykUA5YueIXJE7cikT5fVngiaU8m9+c8y+lxl2uaJpzzB1hWm2Prbz7BmmEfY6e/qhx+1+c/GCrkmx++R4i/jqlmD0U4AchBk+6wHSQ04lElIJ15VYuyMYuaocdBZlgdzRdu06U1pYfW5WKE9zrpoap1yjHwe/0NIYHLMUDxlzurDyxcE7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributon-selection-mail&quot;
+        title=&quot;contributon-selection-mail&quot;
+        src=&quot;/static/91a909a80f5b4e686d2a9dfa8b3a4f8f/c1b63/contributon-mail.png&quot;
+        srcset=&quot;/static/91a909a80f5b4e686d2a9dfa8b3a4f8f/5a46d/contributon-mail.png 300w,
+/static/91a909a80f5b4e686d2a9dfa8b3a4f8f/0a47e/contributon-mail.png 600w,
+/static/91a909a80f5b4e686d2a9dfa8b3a4f8f/c1b63/contributon-mail.png 1200w,
+/static/91a909a80f5b4e686d2a9dfa8b3a4f8f/c929c/contributon-mail.png 1218w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;오픈소스 컨트리뷰톤에 선발되어 dooboo-ui 라는 프로젝트에 참여하게 되었다. 본격적인 오픈소스 컨트리뷰션을 시작하기 전에 사전 기본교육을 Git/Github 교육을 수강하게 되었다.&lt;/p&gt;
+&lt;h2 id=&quot;개발자가-오픈소스를-읽는-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EB%A5%BC-%EC%9D%BD%EB%8A%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;개발자가 오픈소스를 읽는 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;개발자가 오픈소스를 읽는 방법&lt;/h2&gt;
+&lt;h3 id=&quot;fork--clone&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fork--clone&quot; aria-label=&quot;fork  clone permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fork &amp;#x26; Clone&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fork 라는건 프로젝트를(commit 들을) 복사하는 것&lt;/li&gt;
+&lt;li&gt;fork는 깃허브 웹사이트 안에서만 벌어지는 일  &lt;/li&gt;
+&lt;li&gt;나의 이름으로 된 계정 프로젝트로 복사해옴&lt;/li&gt;
+&lt;li&gt;git clone은 프로젝트를 다운로드 받는 일&lt;/li&gt;
+&lt;li&gt;히스토리를 함께 받긴 하지만 소스코드를 함께 받는 것&lt;/li&gt;
+&lt;li&gt;소스코드를 받아야 개발을 할 수 있으니 클론일 필요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;해당-오픈소스에서-누가-제일-개발을-많이-할까-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EB%8B%B9-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EC%97%90%EC%84%9C-%EB%88%84%EA%B0%80-%EC%A0%9C%EC%9D%BC-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EB%A7%8E%EC%9D%B4-%ED%95%A0%EA%B9%8C-&quot; aria-label=&quot;해당 오픈소스에서 누가 제일 개발을 많이 할까  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해당 오픈소스에서 “누가 제일 개발을 많이 할까 ?”&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git shortlog -sn | nl&lt;/code&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;nl 명령은 파일의 line number 명시 (순위 표시용으로 사용)   &lt;/li&gt;
+&lt;li&gt;git shortlog -s 옵션이란? “개발자별 commit 갯수 요약”    &lt;/li&gt;
+&lt;li&gt;git shortlog -n 옵션이란? “개발자별 commit 갯수 순위 정리”  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git log --oneline | wc -l&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;전체 소스파일 수정내역(commit) 개수 세기  &lt;/li&gt;
+&lt;li&gt;wc -l 명령은 (파일) 라인수 개수 측정  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git log --oneline&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;전체 소스파일 수정내역(commit) 리스트&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 812px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB00lEQVQoz5WRyW7aUBSG/QDsGKyUUa2xsfHsMgmDoYSC1HYRpSI0oOIEsTBRMDFB8Bqt1FWVB2DBM/49NkWKuuvi03fPlc50L/Prx0+s5t/hPS3gzu9xf3eHObF0XayJ0P5fAncW+Wk2w8NiAc/zsFwuI08mExwOBzDuaAy7EIfUyoHNvgF7cYEMYScTMFIpiCwLnayzKVhkjWIrmYRYKKDI8xAInojFYtjtdmAm0ynybzmoqglJVlBVVDhSGU2ypBkoqxpEoiTLEDUdvCSBK5XAC0JUKEQUReRyOez3ezCjb7dICyoU3cKgUkG7LKGmSbAMGYpUAlekJKLIcUQxOp+nOlOiBul0GpvNBow3GmFI3aemic9UTFQUGIYBk9B1PULTtMimaUCgyTgq/prwLpPJIAgCMMHNDS57PXy6/opxp4PLbhcOuUM4joMuxcPhEP1+H61WC7VaDY1GI3KFNgqtqmo04akgTfiFLq97HzBtNvGREm3bRr1eR7VaxWAwQLvdpglNyPSuhmnRpIRVic6n+D3y+fxp5fHVFd4lEpCzWfDUJUsOH/i1z/wbnynQj8fjcazXazC/X16wfn6GT9UffR+r1eq/8CknXHW73eJ4POIPg8c43abZOK0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributin-basic-git-1&quot;
+        title=&quot;contributin-basic-git-1&quot;
+        src=&quot;/static/e8c9cbe0cfd1e0c78b110a4437a3a7d5/63ec5/contributon-basic-git-1.png&quot;
+        srcset=&quot;/static/e8c9cbe0cfd1e0c78b110a4437a3a7d5/5a46d/contributon-basic-git-1.png 300w,
+/static/e8c9cbe0cfd1e0c78b110a4437a3a7d5/0a47e/contributon-basic-git-1.png 600w,
+/static/e8c9cbe0cfd1e0c78b110a4437a3a7d5/63ec5/contributon-basic-git-1.png 812w&quot;
+        sizes=&quot;(max-width: 812px) 100vw, 812px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git show 6c8e2ba&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;소스수정 내역(commit) 한가지 확인하기  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git show 6c8e2ba | grep &quot;diff --git&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; show 6c8e2ba &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;diff --git&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;diff&lt;/span&gt; --git a/dcgan/main.py b/dcgan/main.py
+&lt;span class=&quot;token function&quot;&gt;diff&lt;/span&gt; --git a/fast_neural_style/download_saved_models.py b/fast_neural_style/download_saved_models.py  
+&lt;span class=&quot;token function&quot;&gt;diff&lt;/span&gt; --git a/run_python_examples.sh b/run_python_examples.sh
+&lt;span class=&quot;token function&quot;&gt;diff&lt;/span&gt; --git a/word_language_model/main.py b/word_language_model/main.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;수정한 소스 파일의 갯수 찾아보기?!  &lt;/li&gt;
+&lt;li&gt;해당 commit(6c8e2ba)의 수정한 파일들 확인하기  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git show 6c8e2ba | grep &quot;diff --git&quot; | wc -l&lt;/code&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 commit의 수정한 파일 개수 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;943af71 Merge pull request #136 from gentlelinuxer/master&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;위 처럼 나오는것은 수정내역은 없는 Merge commit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git log -p&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;전체 소스파일 수정내역(commit) 자세히 보기&lt;br&gt;
+난 단순하게 커밋 한개를 제목만 보고 싶다 =&gt; &lt;code class=&quot;language-text&quot;&gt;git log --oneline&lt;/code&gt;&lt;br&gt;
+세밀하게 보고 싶다. =&gt; &lt;code class=&quot;language-text&quot;&gt;git log -p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git shortlog -sn -- mnist/&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;특정 폴더를 기준으로 소스 수정내역(commit) 리스트 확인하기&lt;br&gt;
+이것을 통해 누가 리뷰를 해줄 수 있는지 파악&lt;br&gt;
+내가 작업하려고 하는 폴더, 작업한 폴더, 의 메인 개발자를 뽑아내면 그사람에게 물어볼 수 있다.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git log --oneline --after=2020-01-01 --before=2020-06-30&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2020년 1월 부터 2020년 6월 30일까지 소스 수정내역(commit) 리스트 확인  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git log --oneline --after=2020-06-01 --before=2020-06-30 -- mnist/&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log --oneline --after&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-06-01 --before&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2020&lt;/span&gt;-06-30 -- mnist/  
+59423c5 Delete unnecessary blank lines &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;#785)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;2020년 6월 한달간 mnist/ 폴더기준 소스파일 수정내역(commit) 확인하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git log --reverse&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;소스파일 수정내역(commit) 옛날것부터 살펴보기  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;커밋 시 첫 단어 초이스를 잘하는게 좋다. FIX, Update 등&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;오픈소스-개발-참여-준비-git-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%EC%B0%B8%EC%97%AC-%EC%A4%80%EB%B9%84-git-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;오픈소스 개발 참여 준비 git 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;오픈소스 개발 참여 준비 Git 설정&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;브랜치 명을 만들때는 내가 작업하는 것 기준으로 한다.&lt;/li&gt;
+&lt;li&gt;브랜치란? 같은 폴더 다른세상&lt;/li&gt;
+&lt;li&gt;Untracked file =&gt; git 프로젝트에서 관리 되지 않는 범위 밖에 있는 파일&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;git-add-작업파일-해주면&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git-add-%EC%9E%91%EC%97%85%ED%8C%8C%EC%9D%BC-%ED%95%B4%EC%A3%BC%EB%A9%B4&quot; aria-label=&quot;git add 작업파일 해주면 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;git add [작업파일] 해주면&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;git diff에는 안나온다.&lt;/li&gt;
+&lt;li&gt;작업파일이 스테이징 되어 컨트롤 범위에 들어왔기 때문에  &lt;/li&gt;
+&lt;li&gt;수정내역(commit) 만들기 전 준비작업&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;fork를 떠서 나만의 레포지토리를 유지를 해줘야 내가 작업한 내용들도 안전하게 백업/저장할 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git diff&lt;/code&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;파일 수정분에 대한 정보 확인 가능&lt;/li&gt;
+&lt;li&gt;최신역사와의 차이점 확인하기&lt;/li&gt;
+&lt;li&gt;space 도 확인이 가능하여 실수를 방지할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git stash&lt;/code&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;코드를 잠시 저장하는 기능&lt;/li&gt;
+&lt;li&gt;예) 버그 픽스 한 경우 원래의 소스와 수정된 소스와 비교를 한번 해보고 싶을때 유용&lt;/li&gt;
+&lt;li&gt;before, after 비교&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git checkout -- mnist/main.py&lt;/code&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;특정 파일에 문제가 있어서 특정 파일만 롤백을 하고 싶다.&lt;/li&gt;
+&lt;li&gt;파일 수정한 내용 최신역사를 기준으로 복구하기&lt;/li&gt;
+&lt;li&gt;checkout 의미 local git 저장소 에서 “가져오다 / 대출받다” 의미&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;공식-오픈소스-프로젝트를-내-계정에-fork-하여-clone&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B3%B5%EC%8B%9D-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EB%82%B4-%EA%B3%84%EC%A0%95%EC%97%90-fork-%ED%95%98%EC%97%AC-clone&quot; aria-label=&quot;공식 오픈소스 프로젝트를 내 계정에 fork 하여 clone permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;공식 오픈소스 프로젝트를 내 계정에 fork 하여 clone&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 660px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 80%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAABkElEQVQ4y6WUi26CQBBF/f9fa2ICqEFRedimUmAF5P263RkLqKUm2knGxXU8e3fnLrMOMtoW6LrbbBqe5987/pTDON5nPz+jhyqKENk2TpsNQjlSitUKdZL8AlyDr6OfY2BRFHBdF4Hvw5fpeR6Ox6MU2UwqoxBCDHWRFDQo7AvSNOUCAlNmWTapgHdUVjgcDthut9jtdvxc1/WokIoJomka5vM5lsslwy/H2yBIvqB9vEH/VBDlghfb7/dQFIVrbXlEtMsbYBAEvNpGniOtTFuiKOsSYRZw+okLW2yR5zkcx8F6vYZhGKywZGA3rXAlG9IrnAoCEohqVanStGzk5xBt6o/Asiz5HBPZWdoSff/LItQsqqFa+k9elGiKFM3ZHZsyFY/scR9tcUZ9ckaFj8zaPTL2j/mbVKDyjAvwmfhTYXZCHb4/B+xh5LkwDPkSUIbS2FUWy6aI14DUZbIY+XCxWMCyTBTS7IMPXwGapsn20nVdAq1bY78KVFWVoWTsfwHpDOmFQLeLblQcx8OL5BsEd9xoklj6HwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributon-basic-git-2&quot;
+        title=&quot;contributon-basic-git-2&quot;
+        src=&quot;/static/a1492d636b449636c37c3a7234584a3c/1f083/contributon-basic-git-2.png&quot;
+        srcset=&quot;/static/a1492d636b449636c37c3a7234584a3c/5a46d/contributon-basic-git-2.png 300w,
+/static/a1492d636b449636c37c3a7234584a3c/0a47e/contributon-basic-git-2.png 600w,
+/static/a1492d636b449636c37c3a7234584a3c/1f083/contributon-basic-git-2.png 660w&quot;
+        sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;clone-한-저장소에서-오픈소스-개발-후-커밋&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#clone-%ED%95%9C-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90%EC%84%9C-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%ED%9B%84-%EC%BB%A4%EB%B0%8B&quot; aria-label=&quot;clone 한 저장소에서 오픈소스 개발 후 커밋 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;clone 한 저장소에서 오픈소스 개발 후 커밋&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 620px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 84%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2UlEQVQ4y6VUy3KCQBD0/3/GxyU5WV6SSg65+MInoIKIvERUEIXOzBootNBK6VaNu8JO09PTu5U0SYA4Bs5n4HQC0hQ4HkWkvAau5tt1MXhUkiiCNx7DmUxgS314mgar3cZmNLok3iQXP3A7+HklIYbmeg3btuG4LlwKwzThbjal7LL/vu9jTXmWZWG5XIJxBEP+OVJ5DGgYhgjP80iBMzKKSZpcMeF3vG84HGJElYypQv5ADrghNvyw2+2KkGUZ+/0+B9hFWwxXbaj2CHESE4EIGknDgP1+X+xnQqJkTgiCAIqiYDAYQKINs9kMYRgKsCD0sfI1aJ4CzVXQXf4gjA5UppEDTkh/lioHZLr8sNfriWDwjGFRN/xNLNF8PockSaIiro61zAEPhwN0XRfUVVUVYnPSPcucyF4MoNJ+eTqFQU3ZbrcXwHsWeOS/BwkXhmUmLQPI1jGx9zsdBK0WgmZTzDuSIM26/AiwjPGRGrb++IRVb8CuVmE1GnCpoTngf0cOSKfL/frGrl7HrlaD//YOnxrzNGBMZ9/QdIzJNgPqtEKNcR3nBYak4WKxEL5lmwnbFI39DEOdTkoR0GGGzwJmDDNjT6lk+xWGfDlkt41JNxNfJnw4+P0vNuQgYOrBfjIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributon-basic-git-3&quot;
+        title=&quot;contributon-basic-git-3&quot;
+        src=&quot;/static/1b954d66f753e859d585bd6cfeeb6384/2a195/contributon-basic-git-3.png&quot;
+        srcset=&quot;/static/1b954d66f753e859d585bd6cfeeb6384/5a46d/contributon-basic-git-3.png 300w,
+/static/1b954d66f753e859d585bd6cfeeb6384/0a47e/contributon-basic-git-3.png 600w,
+/static/1b954d66f753e859d585bd6cfeeb6384/2a195/contributon-basic-git-3.png 620w&quot;
+        sizes=&quot;(max-width: 620px) 100vw, 620px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;커밋-후-푸쉬-하여-fork-한-내-원격-저장소에-해당-커밋-개발-작업이-쌓임&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A4%EB%B0%8B-%ED%9B%84-%ED%91%B8%EC%89%AC-%ED%95%98%EC%97%AC-fork-%ED%95%9C-%EB%82%B4-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%ED%95%B4%EB%8B%B9-%EC%BB%A4%EB%B0%8B-%EA%B0%9C%EB%B0%9C-%EC%9E%91%EC%97%85%EC%9D%B4-%EC%8C%93%EC%9E%84&quot; aria-label=&quot;커밋 후 푸쉬 하여 fork 한 내 원격 저장소에 해당 커밋 개발 작업이 쌓임 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;커밋 후 푸쉬 하여 fork 한 내 원격 저장소에 해당 커밋 개발 작업이 쌓임&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 622px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACKklEQVQ4y51Ui26iQBT1/7+ltY/0E5pud60xugjiWrWogLwGFBCB4eyd8QWmycad5OQOzJ3DfZxLC8dVXeH8vqoa+9MziyJ8LhaYLpeYGAaS3U6+b0mnNAWSBIhjIM+lrehCVRQN0pPlZLeTCZKPD6TdLpL3n4iNhQykJRxC+pI1GsHWVKynU5iqCpvAs6wRWZ3Q+fEO//5ewmu3ESjDC+GWohMpbMiGmw38MEQkorxK+UQuCL1OB+HzMyICe3kB07QLYUGpuY6D2WwmsaK6JCL92sqKHfbFKWJgRXXTfytQBwOMKRvHtg81lM6UmkEOKh0ITKg+jDHpUPISfuxAtXpQzC5WbI683MOyLIx0HRqV6g/5u57XJFxQHUd0qFHokjA8EIqoWOpjs2OICFNXR7pPYZnW2X88HsN13SbhnFLt9/sSwiEIAny3lnTPCnIqy0L69no9Sbpery+EnHOkJJ2Y6iaQUHNyIZ9ahzk/NGdoJFizHLzMEScpErqXkgb35C/8WtddxDeiFoYf93Mng78lfeYZSiLkRFhSAGW2v0RY19m15g728uxvCkRpiaDzC0H7AYwQ3N01dfivVf+ASJfFhST0H4js8RH+0xOC4Q2E9fS3u5K6TBGONPivr/AE3t4Qzue3EV7PtE0y0YlEo1EVPwdf6FY05RYyiaMqjK8vKDQlA5KOSuna9Um5NUJBaFmm1KtO0yIGwatPyv8QmqYpx1RRlDOhOP8L2AYYknh/rnkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributon-basic-git-4&quot;
+        title=&quot;contributon-basic-git-4&quot;
+        src=&quot;/static/a5e9c3b457d23c8313ca0cac87aafcfa/604ec/contributon-basic-git-4.png&quot;
+        srcset=&quot;/static/a5e9c3b457d23c8313ca0cac87aafcfa/5a46d/contributon-basic-git-4.png 300w,
+/static/a5e9c3b457d23c8313ca0cac87aafcfa/0a47e/contributon-basic-git-4.png 600w,
+/static/a5e9c3b457d23c8313ca0cac87aafcfa/604ec/contributon-basic-git-4.png 622w&quot;
+        sizes=&quot;(max-width: 622px) 100vw, 622px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;fork-한-원격-저장소에서-pull-request를-요청&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fork-%ED%95%9C-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90%EC%84%9C-pull-request%EB%A5%BC-%EC%9A%94%EC%B2%AD&quot; aria-label=&quot;fork 한 원격 저장소에서 pull request를 요청 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;fork 한 원격 저장소에서 Pull Request를 요청&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 744px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACbElEQVQ4y31UaW/aQBTk//+NKF+qqo1UpRItyqEoUgNEhRJz3yG+L2xjfO1O39oxNq0Uiycv67ezM/vmbQPvD+ccHz3ld14be54HWdOwlWWYtp3PNc6SswzMdZFaFrL9HowiVRTwJDmBlrmM3vvJBPubG3itFpynJyTHYwXIiwH03Q7qagXj9RXaZgNluUQax/8BZozD6T7DvbrC/stXWD9biIOgAKyzPNAuluPAIJYi/MPhDKxiyGASQ+X2FsrdHdRuF3EY1hi+Jwa0y2w2Q7/Xw3A4hEWg52fM8x/LGGRdQ388Rm80wpzUxKSkIfKKKBb4vo/1eo3pdJoDW6Z1AtLaHPaQI9RJcsqgaSrmlDMjphtakwOiql0hOQqwWC4gvUiYUrLj7UHqEJqAPabvakGAMQaVCvYyGOSxLgGPZpEUqhyxy3HQU5iaBVmRYakaYkeHI0UwfgXgoQcWOLkbxPZRmsKnM/ejCEdygtik4U6osl2S0wPkZ0Drk78cArBN+LqO42iM43yGVH/L7RRttmAEIABjw0RCbki3W0S7N2RJWkiOEw/+dIBQ+o3Dnw789QoMhaxMWIQ0JlSEuvXFnNnuwLi8hHlxAfX6O6LSNr5hQf92DffTZ9giOp0cEFXFkJI8sQFKH9LbpbPzmj/gN5uwHx8Rk8VywJBayG234d/fw3t4gEfFKI1+YiS6iLHTfzHWqe2mZJsJxZZsk5RVTuhAE1ogGiwRbGgsGNVD5JwZmwAVqrIkSRgQ08ViUdkmT6SEeogFYp7VxnWDC8YaMRReFZ7dVMb++Jb598apM7TphllSr6+o9wW4UPIXKYd7qmVUtwEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributon-basic-git-5&quot;
+        title=&quot;contributon-basic-git-5&quot;
+        src=&quot;/static/75c45bf721f2576d10a911505e125908/cab8c/contributon-basic-git-5.png&quot;
+        srcset=&quot;/static/75c45bf721f2576d10a911505e125908/5a46d/contributon-basic-git-5.png 300w,
+/static/75c45bf721f2576d10a911505e125908/0a47e/contributon-basic-git-5.png 600w,
+/static/75c45bf721f2576d10a911505e125908/cab8c/contributon-basic-git-5.png 744w&quot;
+        sizes=&quot;(max-width: 744px) 100vw, 744px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;공식-오픈소스-프로젝트가-upstream-fork한-내-원격-저장소가-origin&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B3%B5%EC%8B%9D-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B0%80-upstream-fork%ED%95%9C-%EB%82%B4-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EA%B0%80-origin&quot; aria-label=&quot;공식 오픈소스 프로젝트가 upstream fork한 내 원격 저장소가 origin permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;공식 오픈소스 프로젝트가 upstream, fork한 내 원격 저장소가 origin&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 766px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAACKUlEQVQ4y3WU6W7aQBSFef/HqNqgqL9CU7UhEUlTKRUVpNSAgSBi8IY37BlMvdun440YJTE6sjT3+vM9zBm30LiyLMN7V11r3s3dDqphQFK38H2/WG/VxboxcV0EmoZA1xGyB3xJQlo1N/uiIAAdDODe3WHf68EVxbeBrkOgbURYqgpDUaCt14jD8BUw8DzsrrqwP37C7qwN+rR8ATatpFkKmzrQLR2aqcH1Die2677QD6CMOaijIRQmQ9qUwLx+bApjyIKFyS8Zox8iRrci5kMV5paUMFR24wiCscTMnKAvPeBhfY+p9hfP5lMJTNOycU888EMFg88mfp8Z6H+wMPquY7XYIomT46Q1cCIPccN1cM1dYKo8lsDKTCXWnPmQVRmCIGIjStB1A0mSvLIcsxeIkgien+BZWMF2bOSlVkgyWBxg/QHMR8CeAFRJYFgaKKFv5AeF9fIvaIxTuWylEdsxJ2OQA+ylA2flYL914B5ceP+8Yro4jgudbooP0u+DdrsgTO5mU4DL2LCfM5+CXn0F/XYJ57aHOIrLXU/TAlID0YxN9xqk3YZ9fg5yjA2rJ2xch5+BdjrYf7kEuf/JgNGJ03zSJjBkwTaXS2jjMbZMlJ2YYw7zKXz3UJyM0LYRUFoA8vX6HrEXnFhmYV+x0A85DtPFAjv23MlJSXPl8FoVrFZtvQlcCwLGDDjjedhsmCrYWfML8KJ3PhBNoCzLmM/nLGICCCHF+n/dHy6jMLGtxQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributon-basic-git-6&quot;
+        title=&quot;contributon-basic-git-6&quot;
+        src=&quot;/static/1dc05564d6ce3b6aca87434e7b507a9b/f7616/contributon-basic-git-6.png&quot;
+        srcset=&quot;/static/1dc05564d6ce3b6aca87434e7b507a9b/5a46d/contributon-basic-git-6.png 300w,
+/static/1dc05564d6ce3b6aca87434e7b507a9b/0a47e/contributon-basic-git-6.png 600w,
+/static/1dc05564d6ce3b6aca87434e7b507a9b/f7616/contributon-basic-git-6.png 766w&quot;
+        sizes=&quot;(max-width: 766px) 100vw, 766px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git reset&lt;/code&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;commit을 준비하는 add 명령 취소하기 (reset)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git reset --hard HEAD~1&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;commit 정보 삭제하기&lt;/li&gt;
+&lt;li&gt;참고: HEAD~1 은 가장 위에서 첫번째 내용을 삭제한다는 의미  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git commit --amend&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;최신 commit 수정하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;원격-저장소에-새로운-commit이-반영되었으면-rebase가-필요&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%83%88%EB%A1%9C%EC%9A%B4-commit%EC%9D%B4-%EB%B0%98%EC%98%81%EB%90%98%EC%97%88%EC%9C%BC%EB%A9%B4-rebase%EA%B0%80-%ED%95%84%EC%9A%94&quot; aria-label=&quot;원격 저장소에 새로운 commit이 반영되었으면 rebase가 필요 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원격 저장소에 새로운 commit이 반영되었으면 rebase가 필요&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1028px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 93.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAAC2UlEQVQ4y4WUjU/aUBTF+f//FGOcw4hui/Ej0SxZMgcFCqUoFUrpFxRKbSvQs3NLaxCde8nNK7y+3zv33vNaSVwXYa+HUGPofUSmiYXSwKLdxnq1wmq9xqqci+fNZoPnOIbjOHAZtm0jmM/z/ytpkqCrdtDv9xgaQ4faasNyPcjIsgwfjSgMMRyNYNkOTIqwLSv/v5Ihg6E7qH+3UT918afqQrm1EKkqwFOzArobMmadDsKzMyyrVUTHx5heXSF9fkaFr2PQs/H7xxD35ybuaybqP8cIlRZgjrZApoIdsAyv1YJbq8E7OYF/UsVEgFG0BRo61X2zqJBKaxM0fhFoDMEC5UAIZE+hxwymp6cIvn7FjNDJzQ0SAWabDL7vQ9O7aKoNtDsKBtYYcb8PDIdboCjcA7pspspmNghWmL7Bd9M0JZAveJ6HPjvc7XTzMMYWgTpwd7sFsrv7KQtQJ7BLmMTT09NboKZpaLEubcYjuxfTCri7Q0b1KFTuAsUy3S6zajbRpsUMw9gCxTt5ygTKosoUhrRB3KizUB4ynUr5O1e4YyNRKEBFUfI9I4pIaMFcYUyTBkGQg2VeLpdYM0oIBo/giciYetmkmJuD2SzfM+eeiA1Zc72CT0ZWdleeuTlrKsi4MV8r6rr7rkRl37SvITUr61b6kDXKWBapp890p2KZw0MEBwdwLi5KY7/t3u7z6+mFuUultEQO9M7P4dPcU4Z9fV0aey9FcclkgoSdS7lpPR4jZf0kUKSLq0t4XJ/y2s2PjjD/cgT78hIp6/5O4WKxgMeL7g0G8B8e4NAOAbvscfZopQU/CmD4PPSB5pdOa/ShKbbh3ndA6XDIiNjFJbsfUlXM2skcEhRJ919e4BS2Ee+KbeSmJKXC/ZT/O3iAfAc1AtvFZTDkpvDAyj7on13fvctJDJtAlak2aOxmDvxAIT435RYoz7RHyJQnrJvJOk8YM9Z9xRr+BUFqoHX9FMpDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;contributon-basic-git-6&quot;
+        title=&quot;contributon-basic-git-6&quot;
+        src=&quot;/static/ddf0347decc52e223c29b153a8b67ffe/35a31/contributon-basic-git-7.png&quot;
+        srcset=&quot;/static/ddf0347decc52e223c29b153a8b67ffe/5a46d/contributon-basic-git-7.png 300w,
+/static/ddf0347decc52e223c29b153a8b67ffe/0a47e/contributon-basic-git-7.png 600w,
+/static/ddf0347decc52e223c29b153a8b67ffe/35a31/contributon-basic-git-7.png 1028w&quot;
+        sizes=&quot;(max-width: 1028px) 100vw, 1028px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;공식-upstream-저장소에서-최신-commit-history-가져오기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B3%B5%EC%8B%9D-upstream-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90%EC%84%9C-%EC%B5%9C%EC%8B%A0-commit-history-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0&quot; aria-label=&quot;공식 upstream 저장소에서 최신 commit history 가져오기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;공식 upstream 저장소에서 최신 commit history 가져오기&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;$ git fetch upstream master&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;최신-commit-history-기준으로-베이스-갱신-rebase&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B5%9C%EC%8B%A0-commit-history-%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C-%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EA%B0%B1%EC%8B%A0-rebase&quot; aria-label=&quot;최신 commit history 기준으로 베이스 갱신 rebase permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;최신 commit history 기준으로 베이스 갱신 (rebase)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;$ git rebase upstream/master&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;fork-한-저장소github도-수정하기-pr-자동-갱신&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fork-%ED%95%9C-%EC%A0%80%EC%9E%A5%EC%86%8Cgithub%EB%8F%84-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-pr-%EC%9E%90%EB%8F%99-%EA%B0%B1%EC%8B%A0&quot; aria-label=&quot;fork 한 저장소github도 수정하기 pr 자동 갱신 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fork 한 저장소(GitHub)도 수정하기 (PR 자동 갱신)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;$ git push --force origin fix-mnist&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;수정내역commit-과거-시점으로-되감기rewind&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98%EC%A0%95%EB%82%B4%EC%97%ADcommit-%EA%B3%BC%EA%B1%B0-%EC%8B%9C%EC%A0%90%EC%9C%BC%EB%A1%9C-%EB%90%98%EA%B0%90%EA%B8%B0rewind&quot; aria-label=&quot;수정내역commit 과거 시점으로 되감기rewind permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수정내역(commit) 과거 시점으로 되감기(rewind)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;$ git rebase -i --root&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;수정내역commit-다시-현재-시점으로-풀기continue&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98%EC%A0%95%EB%82%B4%EC%97%ADcommit-%EB%8B%A4%EC%8B%9C-%ED%98%84%EC%9E%AC-%EC%8B%9C%EC%A0%90%EC%9C%BC%EB%A1%9C-%ED%92%80%EA%B8%B0continue&quot; aria-label=&quot;수정내역commit 다시 현재 시점으로 풀기continue permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수정내역(commit) 다시 현재 시점으로 풀기(continue)&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;$ git rebase --continue&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;uftrace-버전-리스트-태그-가져오기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#uftrace-%EB%B2%84%EC%A0%84-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%ED%83%9C%EA%B7%B8-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0&quot; aria-label=&quot;uftrace 버전 리스트 태그 가져오기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;uftrace 버전 리스트 (태그) 가져오기&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;$ git fetch --tags&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;uftrace-버전-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#uftrace-%EB%B2%84%EC%A0%84-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;uftrace 버전 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;uftrace 버전 확인&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;$ git tag&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;해당-소스파일을-누가-수정했고-언제-수정했는지-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EB%8B%B9-%EC%86%8C%EC%8A%A4%ED%8C%8C%EC%9D%BC%EC%9D%84-%EB%88%84%EA%B0%80-%EC%88%98%EC%A0%95%ED%96%88%EA%B3%A0-%EC%96%B8%EC%A0%9C-%EC%88%98%EC%A0%95%ED%96%88%EB%8A%94%EC%A7%80-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;해당 소스파일을 누가 수정했고 언제 수정했는지 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해당 소스파일을 누가 수정했고 언제 수정했는지 확인&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;소스 라인 기준으로 commit 정보를 찾아 낼 수 있다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;$ git blame cmds/record.c&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[React의 Virtual DOM과 babel 이해하기]]></title><description><![CDATA[React에서 babel의 동작원리 & React와 Virtual DOM 이해하기 먼저 babel이란? Babel 은 자바스크립트 컴파일러이다. 최신 버전의 자바스크립트 문법은 브라우저가 이해할 수 없기 때문에 babel…]]></description><link>https://devdubby.github.io/development/react의-virtual-dom과-babel-이해하기/</link><guid isPermaLink="false">https://devdubby.github.io/development/react의-virtual-dom과-babel-이해하기/</guid><pubDate>Fri, 03 Sep 2021 20:10:25 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 700px; &quot;
     &gt;
@@ -282,7 +620,19 @@ Lighthouse는 외부 출처 url을 preconnect로 연결해 줄 것을 제안하�
 &lt;li&gt;&lt;a href=&quot;https://web.dev/unused-javascript/?utm_source=lighthouse&amp;#x26;utm_medium=devtools&quot;&gt;https://web.dev/unused-javascript/?utm_source=lighthouse&amp;#x26;utm_medium=devtools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://web.dev/uses-rel-preconnect/?utm_source=lighthouse&amp;#x26;utm_medium=devtools&quot;&gt;https://web.dev/uses-rel-preconnect/?utm_source=lighthouse&amp;#x26;utm_medium=devtools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse?hl=ko&quot;&gt;https://developers.google.com/web/tools/lighthouse?hl=ko&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[프로그래머스 FE 생존키트 스터디 4주차]]></title><description><![CDATA[지난 과제 리뷰 http status code 는 정말 다양하게 있다. 성공이 무조건 200 만을 주진 않음 2xx 로 대응   이미지 최적화 / 지연 로딩 웹 서비스에서 이미지를 사용할 때에 어떤 점들을 고려해야할까? Responsive Image…]]></description><link>https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-4주차/</link><guid isPermaLink="false">https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-4주차/</guid><pubDate>Sat, 14 Aug 2021 10:08:15 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[프로그래머스 FE 생존키트 스터디 5주차]]></title><description><![CDATA[cmd + shift + p Optimistice UI url search Params gip
+workFlowy github surf
+scrollable
+vimium paste JSON as Code turbo console.log]]></description><link>https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-5주차/</link><guid isPermaLink="false">https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-5주차/</guid><pubDate>Sat, 21 Aug 2021 18:08:35 GMT</pubDate><content:encoded>&lt;p&gt;cmd + shift + p&lt;/p&gt;
+&lt;p&gt;Optimistice UI&lt;/p&gt;
+&lt;p&gt;url search Params&lt;/p&gt;
+&lt;p&gt;gip
+workFlowy&lt;/p&gt;
+&lt;p&gt;github surf
+scrollable
+vimium&lt;/p&gt;
+&lt;p&gt;paste JSON as Code&lt;/p&gt;
+&lt;p&gt;turbo console.log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[프로그래머스 FE 생존키트 스터디 4주차]]></title><description><![CDATA[지난 과제 리뷰 http status code 는 정말 다양하게 있다. 성공이 무조건 200 만을 주진 않음 2xx 로 대응   이미지 최적화 / 지연 로딩 웹 서비스에서 이미지를 사용할 때에 어떤 점들을 고려해야할까? Responsive Image…]]></description><link>https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-4주차/</link><guid isPermaLink="false">https://devdubby.github.io/프로그래머스/프로그래머스-fe-생존키트-스터디-4주차/</guid><pubDate>Sat, 14 Aug 2021 10:08:15 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &quot;
     &gt;
