@@ -2,11 +2,11 @@
 title: 프로그래머스 FE 생존키트 스터디 1주차
 date: 2021-07-24 10:07:52
 category: 프로그래머스
-thumbnail: { './images/thumbnail-fekit.png' }
+thumbnail: { '../../assets/thumbnail-fekit.png' }
 draft: false
 ---
 
-![thumbnail](./images/thumbnail-fekit.png)
+![thumbnail](../../assets/thumbnail-fekit.png)
 
 이번에 프로그래머스를 통해 FE 취업 생존키트라는 스터디에 참여하게 되었다.  
 크게 이직 준비를 하는건 아니지만, 요즘같이 다양한 프레임워크와 라이브러리 등 개발을 편리하게 할 수 있게 해주는
@@ -116,7 +116,7 @@ export default () => {
 ### Container 쿼리 예제
 먼저 크롬에서 chrome://flags 에 접속하여 검색창에 container라고 검색 후 Enable CSS Container Queries 항목을 Enabled 해줘야 하는 세팅이 필요하다.  
 
-![container-query-setting](./images/container-query-setting.png)
+![container-query-setting](../../assets/container-query-setting.png)
 
 ```css
 @container (min-width: 700px){
@@ -131,7 +131,7 @@ parent 기준의 size에 따라 style을 지정할 수 있다.
 할 수 없던 일들을 @container query를 사용하면 해결할 수 있다.
 그러나 container 쿼리는 현재 지원하는 브라우저가 거의 없어 아직 범용적으로 사용하기에는 이르다.
 
-![browser-support](./images/browser-support.png)
+![browser-support](../../assets/browser-support.png)
 
 ## 다크모드 대응하기 - 다크모드를 대응하는 여러가지 방법들
 

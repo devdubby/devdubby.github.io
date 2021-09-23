@@ -2,11 +2,11 @@
 title: 프로그래머스 FE 생존키트 스터디 2주차
 date: 2021-07-31 10:07:34
 category: 프로그래머스
-thumbnail: { './images/thumbnail-fekit.png' }
+thumbnail: { '../../assets/thumbnail-fekit.png' }
 draft: false
 ---
 
-![thumbnail](./images/thumbnail-fekit.png)
+![thumbnail](../../assets/thumbnail-fekit.png)
 
 ## 지난 과제 리뷰
 
@@ -59,7 +59,7 @@ document에서 event.target까지 도달하는 이벤트의 흐름
 이벤트가 발생한 DOM 요소에서 최상단의 document까지 버블링하는 흐름  
 브라우저 이벤트는 특별한 설정이 있지 않는 한 기본적으로 bubbling 으로 실행된다.
 
-![thumbnail](./images/bubbling-capturing.svg)
+![thumbnail](../../assets/bubbling-capturing.svg)
 출처 : [버블링과 캡처링](https://ko.javascript.info/bubbling-and-capturing)
 
 ## 이벤트 위임

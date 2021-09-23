@@ -2,11 +2,11 @@
 title: 프로그래머스 FE 생존키트 스터디 3주차
 date: 2021-08-07 10:08:41
 category: 프로그래머스
-thumbnail: { './images/thumbnail-fekit.png' }
+thumbnail: { '../../assets/thumbnail-fekit.png' }
 draft: false
 ---
 
-![thumbnail](./images/thumbnail-fekit.png)
+![thumbnail](../../assets/thumbnail-fekit.png)
 
 ## 지난 과제 리뷰
 display: none, block 보다 visibility 속성을 활용하면 transition 을 걸 수 있다.

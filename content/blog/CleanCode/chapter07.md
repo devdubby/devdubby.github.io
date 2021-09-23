@@ -2,11 +2,11 @@
 title: Clean Code Study (Ch.7 Function)
 date: 2021-08-05 23:08:40
 category: CleanCode
-thumbnail: { './images/clean-code-thumbnail.jpeg' }
+thumbnail: { '../../assets/clean-code-thumbnail.jpeg' }
 draft: false
 ---
 
-![thumbnail](./images/clean-code-thumbnail.jpeg)
+![thumbnail](../../assets/clean-code-thumbnail.jpeg)
 
 # 07. 오류처리
 - 오류 처리는 프로그램에 반드시 필요한 요소 중 하나

@@ -2,11 +2,11 @@
 title: Clean Code Study (Ch.3 Function)
 date: 2021-07-19 22:07:43
 category: CleanCode
-thumbnail: { './images/clean-code-thumbnail.jpeg' }
+thumbnail: { '../../assets/clean-code-thumbnail.jpeg' }
 draft: false
 ---
 
-![thumbnail](./images/clean-code-thumbnail.jpeg)
+![thumbnail](../../assets/clean-code-thumbnail.jpeg)
 
 회사에서 '클린코드' 책 스터디를 진행하고 있어 공부한 내용을 정리해보려고 한다.
 

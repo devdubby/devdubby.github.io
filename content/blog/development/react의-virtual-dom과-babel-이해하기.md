@@ -2,11 +2,11 @@
 title: React의 Virtual DOM과 babel 이해하기
 date: 2021-09-03 20:09:85
 category: development
-thumbnail: { thumbnailSrc }
+thumbnail: { '../../assets/TIL-thumbnail.png' }
 draft: false
 ---
 
-![thumbnail](./images/TIL-thumbnail.png)
+![thumbnail](../../assets/TIL-thumbnail.png)
 
 # React에서 babel의 동작원리 & React와 Virtual DOM 이해하기
 

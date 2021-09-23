@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-![thumbnail](./images/lighthouse-thumbnail.png)
+![thumbnail](../../assets/lighthouse-thumbnail.png)
 
 이번에 다를 주제는 Lighthouse 라는 도구를 사용해서 React 웹의 렌더링 성능을 측정하는 방법과 프로파일링에 대해 알아보려고 한다.
 

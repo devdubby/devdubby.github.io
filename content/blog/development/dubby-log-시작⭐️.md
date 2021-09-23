@@ -2,11 +2,11 @@
 title: Dubby log 시작⭐️
 date: 2021-07-18 21:07:39
 category: development
-thumbnail: { './images/blog-thumbnail.jpg' }
+thumbnail: { '../../assets/blog-thumbnail.jpg' }
 draft: false
 ---
 
-![thumbnail](./images/blog-thumbnail.jpg) 
+![thumbnail](../../assets/blog-thumbnail.jpg) 
 
 # Gatsby 를 활용한 개발 블로그
 

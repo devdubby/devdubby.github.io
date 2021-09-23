@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-![thumbnail](./images/thumbnail-fekit.png)
+![thumbnail](../../assets/thumbnail-fekit.png)
 
 ## 지난 과제 리뷰
 http status code 는 정말 다양하게 있다.  
