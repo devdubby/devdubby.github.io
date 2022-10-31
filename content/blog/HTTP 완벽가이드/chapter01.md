@@ -1,12 +1,12 @@
 ---
-title: chapter01
+title: HTTP 완벽가이드 Chapter01
 date: 2022-09-19 22:09:94
 category: HTTP 완벽가이드
 thumbnail: { '../../assets/http-guide/thumbnail.jpeg' }
 draft: false
 ---
 
-# Ch01. HTTP 개관
+![thumbnail](../../assets/http-guide/thumbnail.jpeg)
 
 ## 1.1 HTTP: 인터넷의 멀티미디어 배달부
 
